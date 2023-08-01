@@ -17,3 +17,7 @@ const myAtropos = Atropos({
     }
   });
   
+  setTimeout(() => {
+    // destroy it when needed
+    myAtropos.destroy();
+  }, 10000)
