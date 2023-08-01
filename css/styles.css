@@ -1,0 +1,24 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+.special-box {
+    width: 320px;
+    height: 160px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
